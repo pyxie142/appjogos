@@ -15,5 +15,11 @@ public class janela extends JFrame {
     LoginPanel LoginPanel = new LoginPanel(telas, this);
     PrincipalPainel PrincipalPainel = new PrincipalPanel(telas, this); 
 
+    this.add(telas);
+    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+    this.setUndecorated(true);
+    this.setVisible(true);
+
    } 
 }
